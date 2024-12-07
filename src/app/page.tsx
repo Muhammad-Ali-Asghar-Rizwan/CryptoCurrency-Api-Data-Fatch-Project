@@ -21,7 +21,7 @@ export default function Home() {
         Your gateway to comprehension Crypto InsiGhts!
         </h1>
         <br />
-      <p className="text-xl mb-8  max-w-2xl mx-auto">Stay updated with live crypto prices in market. Easily acess the market coin rates with API's </p>
+      <p className="text-xl mb-8  max-w-2xl mx-auto">Stay updated with live crypto prices in market. Easily acess the market coin rates with API  </p>
       <button onClick={handleExploreClick}
        className="inline-block px-10 py-6 bg-yellow-500 text-black  font-semibold rounded-full shadow-lg transition-transform hover:bg-cyan-400 hover:scale-105"
        aria-label="Explore Cryptocurrency State"
