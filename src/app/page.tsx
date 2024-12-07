@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import CryptoDashboard from "./component/Cryptodashboard";
 import { useState } from "react";
 

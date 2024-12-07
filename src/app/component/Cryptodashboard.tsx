@@ -4,8 +4,16 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 
+
+interface Coin {
+  id: string;
+  name: string;
+  current_price: number;
+  market_cap: number;
+  price_change_percentage_24h: number;
+}
 const CryptoDashboard = () => {
-  const [coins, setCoins] = useState<any[]>([]);
+  const [coins, setCoins] = useState<Coin[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
